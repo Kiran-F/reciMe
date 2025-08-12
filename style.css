@@ -7,6 +7,9 @@
 body{
     width: 100%;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 /* navigation bar */
 header{
@@ -330,12 +333,13 @@ main{
 }
 
 /* faqs section */
-#faqs{
+.faqs{
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+    padding-top: 70px;
 }
-#faqs h2{
+.faqs h2{
     width: 40%;
     padding-top: 1rem;
 }
@@ -381,7 +385,7 @@ footer{
     display: flex;
     flex-direction: column;
     padding: 20px 20px;
-    margin-top: 80px;
+    margin-top: 70px;
 }
 footer .footer-one{
     display: flex;
@@ -420,9 +424,6 @@ footer .footer-one .second-part{
     color: #fff;
     font-size: 0.8rem;
 }
-.footer-two .socials{
-
-}
 .footer-two .socials i{
     font-size: 1.4rem;
     color: #fff;
@@ -432,7 +433,7 @@ footer .footer-one .second-part{
 /* revealing on scroll */
 .reveal{
     position: relative;
-    transform: translateY(70px);
+    transform: translateY(60px);
     opacity: 0;
     transition: 1s all;
 }
@@ -491,11 +492,11 @@ footer .footer-one .second-part{
         flex-direction: column;
         gap: 3rem;
     }
-    #faqs{
+    .faqs{
         flex-direction: column;
         gap: 0;
     }
-    #faqs h2{
+    .faqs h2{
         width: 100%;
     }
     .cards {
