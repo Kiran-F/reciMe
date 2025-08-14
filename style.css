@@ -377,6 +377,10 @@ main{
     height: 0;
     transition: all 1s ease;
     overflow: hidden;
+    color: #636363;
+}
+.accordion-content .answer-description a{
+    color: #f8571d;
 }
 
 /* footer starts here */
